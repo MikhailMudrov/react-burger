@@ -9,13 +9,13 @@ function Navigation() {
         <li className={headerStyles.list}>
           <a href='/' className={headerStyles.link}>
             <BurgerIcon type="primary" />
-            <p className="text text_type_main-default pl-2 pt-4 pb-4 pr-5">Конструктор</p>
+            <p className="text text_type_main-default pl-2 pr-5">Конструктор</p>
           </a>
         </li>
         <li className={headerStyles.list}>
           <a href='/' className={headerStyles.link}>
             <ListIcon type="secondary" />
-            <p className="text text_type_main-default text_color_inactive pl-2 pt-4 pb-4 pr-5">Лента заказов</p>
+            <p className="text text_type_main-default text_color_inactive pl-2 pr-5">Лента заказов</p>
           </a>
         </li>
       </ul>
@@ -27,7 +27,7 @@ function Profile() {
   return (
     <div className={headerStyles.link}>
       <ProfileIcon type="secondary" />
-      <p className="text text_type_main-default text_color_inactive pl-2 pt-4 pb-4 pr-5">Личный кабинет</p>
+      <p className="text text_type_main-default text_color_inactive pl-2 pr-5">Личный кабинет</p>
     </div>
   )
 }

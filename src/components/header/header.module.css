@@ -24,7 +24,6 @@
     column-gap: 28px;
     list-style-type: none;
     grid-template-columns: minmax(max-content, max-content) minmax(max-content, max-content);
-
 }
 
 .list {
