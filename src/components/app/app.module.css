@@ -2,3 +2,9 @@
   width: 100%;
   background-color: #131316;
 }
+
+.content {
+  max-width: 1280px;
+  display: flex;
+  margin: auto;
+}
